@@ -1,4 +1,4 @@
-package com.mbpx.baubiblio.registration;
+package mbpx.baubiblio.registration;
 
 import java.util.function.Predicate;
 

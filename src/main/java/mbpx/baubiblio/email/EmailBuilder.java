@@ -1,4 +1,4 @@
-package com.mbpx.baubiblio.email;
+package mbpx.baubiblio.email;
 
 public class EmailBuilder {
 	public static String buildEmail(String name, String link) {

@@ -1,4 +1,4 @@
-package com.mbpx.baubiblio.registration.token;
+package mbpx.baubiblio.registration.token;
 
 import java.time.LocalDateTime;
 import java.util.Optional;

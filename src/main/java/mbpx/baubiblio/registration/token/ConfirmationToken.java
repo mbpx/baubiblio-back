@@ -1,4 +1,4 @@
-package com.mbpx.baubiblio.registration.token;
+package mbpx.baubiblio.registration.token;
 
 import java.time.LocalDateTime;
 
@@ -10,11 +10,10 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
-import com.mbpx.baubiblio.user.User;
-
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import mbpx.baubiblio.user.User;
 
 @Entity
 @Getter

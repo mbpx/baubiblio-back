@@ -1,4 +1,4 @@
-package com.mbpx.baubiblio.user;
+package mbpx.baubiblio.user;
 
 import java.util.Optional;
 

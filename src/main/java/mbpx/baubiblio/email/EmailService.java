@@ -1,4 +1,4 @@
-package com.mbpx.baubiblio.email;
+package mbpx.baubiblio.email;
 
 
 import javax.mail.MessagingException;

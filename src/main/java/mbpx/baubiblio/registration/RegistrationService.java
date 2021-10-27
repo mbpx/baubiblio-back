@@ -1,4 +1,4 @@
-package com.mbpx.baubiblio.registration;
+package mbpx.baubiblio.registration;
 
 import java.time.LocalDateTime;
 
@@ -6,15 +6,14 @@ import javax.transaction.Transactional;
 
 import org.springframework.stereotype.Service;
 
-import com.mbpx.baubiblio.email.EmailBuilder;
-import com.mbpx.baubiblio.email.EmailSender;
-import com.mbpx.baubiblio.registration.token.ConfirmationToken;
-import com.mbpx.baubiblio.registration.token.ConfirmationTokenService;
-import com.mbpx.baubiblio.user.User;
-import com.mbpx.baubiblio.user.UserRole;
-import com.mbpx.baubiblio.user.UserService;
-
 import lombok.AllArgsConstructor;
+import mbpx.baubiblio.email.EmailBuilder;
+import mbpx.baubiblio.email.EmailSender;
+import mbpx.baubiblio.registration.token.ConfirmationToken;
+import mbpx.baubiblio.registration.token.ConfirmationTokenService;
+import mbpx.baubiblio.user.User;
+import mbpx.baubiblio.user.UserRole;
+import mbpx.baubiblio.user.UserService;
 
 @Service
 @AllArgsConstructor

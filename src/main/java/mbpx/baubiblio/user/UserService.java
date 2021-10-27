@@ -1,4 +1,4 @@
-package com.mbpx.baubiblio.user;
+package mbpx.baubiblio.user;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
@@ -9,10 +9,9 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.mbpx.baubiblio.registration.token.ConfirmationToken;
-import com.mbpx.baubiblio.registration.token.ConfirmationTokenService;
-
 import lombok.AllArgsConstructor;
+import mbpx.baubiblio.registration.token.ConfirmationToken;
+import mbpx.baubiblio.registration.token.ConfirmationTokenService;
 
 @Service
 @AllArgsConstructor

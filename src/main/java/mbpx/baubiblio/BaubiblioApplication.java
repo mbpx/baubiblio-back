@@ -1,4 +1,4 @@
-package com.mbpx.baubiblio;
+package mbpx.baubiblio;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
